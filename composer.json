@@ -9,7 +9,9 @@
             "email": "partyschaum@posteo.de"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/console": "^4.0"
+    },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
     },
