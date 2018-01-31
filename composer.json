@@ -1,0 +1,26 @@
+{
+    "name": "partyschaum/cqrs-event-sourcing-koans",
+    "description": "CQRS and Event Sourcing Koans in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hauke Stange",
+            "email": "partyschaum@posteo.de"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Partyschaum\\Koans\\CqrsAndEventSourcing\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Partyschaum\\Koans\\CqrsAndEventSourcing\\Tests\\": "tests"
+        }
+    }
+}
